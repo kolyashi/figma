@@ -145,7 +145,7 @@ padding-bottom: 120px;
 
 .cond{
     margin-top: 470px;
-    background: url(assets/images/Eclipse.png);
+    background: url('../assets/images/Eclipse.png');
     background-size: 101% 105%;
     background-position: 50% 70%;
     padding-bottom: 200px;
@@ -289,7 +289,7 @@ padding-bottom: 120px;
     position: relative;
   }
   .order {
-    background: url('../assets/images/order/Eclipse.png');
+    background: url('../assets/images/Eclipse.png');
     background-size: cover;
   }
   .order-block {
