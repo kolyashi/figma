@@ -241,6 +241,14 @@ padding-bottom: 120px;
     width: 100%;
     margin-top: 80px;
   }
+  .video-block p {
+    display: none;
+  }
+  img {
+    aspect-ratio: 9/6 auto;
+  }
+  
+  
   .complect-wrapper{
     background: #fff;
   }
@@ -358,8 +366,14 @@ padding-bottom: 120px;
   .form_description {
     margin: 30px 0;
   }
-  
- 
+  .complect span{
+    filter: contrast(200%) brightness(100%);
+    color: green;
+  }
+  .order span.complect{
+    filter: contrast(200%) brightness(100%);
+    color:white
+  }
   
   .footer-content {
     position: absolute;
