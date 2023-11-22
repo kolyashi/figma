@@ -159,7 +159,7 @@ padding-bottom: 120px;
 .cond-text{
     text-align:left;
     max-width: 1000px;
-    margin: 0 auto;
+    margin: 0;
     
   }
 
@@ -311,7 +311,7 @@ padding-bottom: 120px;
   .order-block {
     padding: 170px 0 315px;
   }
-  .order__title {
+  .order_title {
     text-align: center;
   }
   .order_form {
@@ -407,6 +407,9 @@ padding-bottom: 120px;
     .header-nav li:not(:last-child) {
       display: none;
     }
+    .cond_item img {
+      margin-left: -59px;
+    }
     .hero-block {
       max-width: 480px;
     }
@@ -428,7 +431,7 @@ padding-bottom: 120px;
       right: -30vw;
     }
     .cond-text {
-      width: 575px;
+      width: 433px;
     }
     .cond_title {
       font-size: 40px;
@@ -436,7 +439,7 @@ padding-bottom: 120px;
       margin-bottom: 30px;
     }
     .cond_description {
-      padding: 0 30px;
+      padding: 0 -10px;
       font-size: 16px;
       line-height: 24px
     }
@@ -452,15 +455,15 @@ padding-bottom: 120px;
     .cond_item:nth-child(7) {
       margin-right: 100px;
     }
-    .cond__item span {
+    .cond_item span {
       font-size: 36px;
     }
     .cond_item:nth-child(3n),
     .cond_item:first-child {
       padding-left: 100px;
     }
-    .cond__item:nth-child(3n) span,
-    .cond__item:first-child span {
+    .cond_item:nth-child(3n) span,
+    .cond_item:first-child span {
       left: 35px;
     }
     .cond_item:first-child img {
@@ -484,7 +487,7 @@ padding-bottom: 120px;
   }
   
   @media screen and (min-width: 768px) and (max-width: 1279px) and (max-height: 900px) {
-    .hero__image {
+    .hero_image {
       top: 20vh;
       
     }
@@ -500,6 +503,13 @@ padding-bottom: 120px;
     .header-nav ul {
       width: auto;
     }
+
+    .cond_item img {
+      margin-left: -12px;
+      }
+      
+
+      
     .header-nav li:not(:last-child) {
       display: none;
     }
@@ -514,15 +524,20 @@ padding-bottom: 120px;
       width: 100%;
     }
     .button {
-      padding: 12px 28px;
+      padding: 10px 3px;
       font-size: 14px;
+     
+    }
+
+    .hero .button{
+      margin-top: 10px;
     }
     .hero_title {
       font-size: 34px;
       line-height: 100%;
       width: 100%;
     }
-    .hero__subtitle {
+    .hero_subtitle {
       font-size: 16px;
       width: 100%;
       margin-bottom: 35px;
@@ -530,10 +545,10 @@ padding-bottom: 120px;
     .bg {
       top: 400px;
     }
-    .hero__image {
+    .hero_image {
       height: 215px;
-      top: 320px;
-      right:0;
+      top: 323px;
+      right:-55px;
     }
     .hero {
       padding-bottom: 400px;
@@ -542,13 +557,13 @@ padding-bottom: 120px;
       font-size: 24px;
       line-height: 100%;
       width: 90%;
-      margin: 0 auto 20px;
+      margin: 0 0 20px;
     }
     .cond_description {
       font-size: 12px;
       line-height: 130%;
       width: 90%;
-      margin: 0 auto;
+      margin: 0;
     }
     .cond-block {
       display: flex;
@@ -564,7 +579,7 @@ padding-bottom: 120px;
     .cond_item span {
       font-size: 24px;
     }
-    .cond_item__title {
+    .cond_item_title {
       margin: 15px 0 10px;
     }
     .cond_item:nth-child(3n) span,
